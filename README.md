@@ -13,7 +13,7 @@ Essa é ma API Rest mockada, utilizando json-server e JWT.
 $ npm install
 $ npm run start-auth
 ```
-# Até aqui funcionou o rpm by Dani Cury
+# Até aqui funcionou o rpm by Dani Cury :D
 ## 🛠️ Como se registrar?
 
 Você pode fazer isso efetuando uma requisição post para:

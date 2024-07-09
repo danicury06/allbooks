@@ -6,7 +6,7 @@ const { emailExiste, usuarioExiste } = require('../services/userService')
 const { createToken } = require('../services/authService')
 let { userDB } = require('../config/database')
 
-server.post('/registrar', async (req, res) => {
+server.post('/cadastrar', async (req, res) => {
     const { email, senha, nome, endereco, complemento, cep } = req.body;
 
     if (emailExiste(email)) {
@@ -68,7 +68,7 @@ server.get('/lancamentos', (req, res) => {
             "categoria": 3,
             "titulo": "Bootstrap 4",
             "slug": "bootstrap-4",
-            "descricao": "Conheça a biblioteca front-end mais utilizada no mundo",
+            "descricao": "Conheça a biblioteca front-end mais usada no mundo",
             "isbn": "978-85-94188-60-1",
             "numeroPaginas": 172,
             "publicacao": "2018-05-01",
